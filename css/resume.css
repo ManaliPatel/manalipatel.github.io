@@ -4,11 +4,31 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
-body {
+body, html {
+  padding:0; 
+  margin:0;
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  padding-top: 54px;
+  /*padding-top: 54px;*/
   color: #868e96;
+  /*height: 100%;*/
+  /*margin: 0;*/
 }
+
+.bg {
+  padding:0; 
+  margin:0;
+  /* The image used */
+  background-image: url("../img/boston.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 @media (min-width: 992px) {
   body {
@@ -117,9 +137,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 12rem;
+    max-height: 12rem;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
